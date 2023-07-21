@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    gap: 10%;
+    background-image: linear-gradient(blue, white);
+    flex-wrap: wrap;
+}
+
+.h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 10px;
+    font-size: 3rem;
+}
+
+.profile {
+    width: 15%;
+    border-radius: 50%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+} 
+
+.nav {
+    background-color: rgb(7, 7, 243);
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+.list {
+    text-align: center;
+    font-weight: 700px;
+    color: white;
+}
+
+.main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+
+    background-color: aliceblue;
+    background-image: url('../assets/images/scenic-2200x1331.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    
+}
+
+#block {
+    display: block;
+}
+
+.center {
+    color: white;
+}
+
+.picture {
+    width: 500px;
+    height: auto;
+
+}
+
+#search {
+    color: white;
+}
+
+.footer {
+    background-image: linear-gradient(white, blue);
+    font-weight: 500;
+    text-align: center;
+}
+
+.contactform {
+    background-color: aliceblue;
+    background-image: url('../assets/images/gratisography-tiny-parrot-free-stock-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.vague {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.white {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.who {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+@media (min-width: 700px) {
+    form {
+        text-align: center;
+    }
+
+    .nav {
+        gap: 15%;
+    }
+
+    .who {
+        font-size: 50px;
+    }
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.about {
+    background-color: aliceblue;
+    background-image:   url('../assets/images/bubbles.png'),
+                        linear-gradient( white, blue);
+    background-repeat: no-repeat;
+}
