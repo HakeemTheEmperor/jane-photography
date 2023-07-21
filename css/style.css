@@ -130,10 +130,6 @@ a:visited {
     }
 }
 
-.nowrap {
-    white-space: nowrap;
-}
-
 .about {
     background-color: aliceblue;
     background-image:   url('../assets/images/bubbles.png'),
